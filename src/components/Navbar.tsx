@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <span className="text-2xl font-bold text-primary">ARBO</span>
+            <span className="text-2xl font-bold text-primary">Arbo Automações</span>
           </div>
 
           {/* Navigation Links */}

@@ -18,7 +18,7 @@ const Hero = () => {
             <div className="space-y-6">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight">
                 Transformação Digital para{" "}
-                <span className="text-primary">Centro de Medicina Clinlife</span>
+                <span className="text-primary">Clinica Clinlife</span>
               </h1>
               
               <p className="text-xl md:text-2xl text-gray-700 leading-relaxed">

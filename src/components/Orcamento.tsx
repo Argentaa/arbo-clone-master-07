@@ -14,7 +14,7 @@ const Orcamento = () => {
   ];
 
   return (
-    <section id="orcamento" className="section-padding bg-background">
+    <section id="orcamento" className="pb-32 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
@@ -30,13 +30,6 @@ const Orcamento = () => {
         {/* Single Pricing Card */}
         <div className="max-w-4xl mx-auto">
           <div className="card-arbo relative ring-2 ring-primary glow-primary">
-            {/* Oferta Badge */}
-            <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-              <div className="bg-gradient-primary text-primary-foreground px-6 py-2 rounded-full text-sm font-semibold flex items-center gap-2">
-                <Star className="w-4 h-4" />
-                Oferta de Lançamento
-              </div>
-            </div>
 
             {/* Pricing Header */}
             <div className="text-center mb-8 pt-4">
@@ -90,16 +83,6 @@ const Orcamento = () => {
                   50% na entrada • 50% na entrega • Validade 30 dias • Escopo sem implementação técnica (POCs/integr. opcionais)
                 </p>
               </div>
-            </div>
-
-            {/* CTAs */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="hero" size="lg" className="text-base px-8 py-3">
-                Solicitar Proposta Detalhada
-              </Button>
-              <Button variant="outline" size="lg" className="text-base px-8 py-3">
-                Agendar Reunião de Escopo
-              </Button>
             </div>
           </div>
         </div>

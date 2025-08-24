@@ -89,7 +89,7 @@ const Plano = () => {
   ];
 
   return (
-    <section id="plano" className="section-padding bg-background">
+    <section id="plano" className="pb-32 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
