@@ -3,20 +3,17 @@ import { CheckCircle, Target } from "lucide-react";
 const Diagnostico = () => {
 
   const problemasAtuais = [
-    "Processos manuais consomem 40% do tempo da equipe",
-    "Agendamento majoritariamente por telefone",
-    "Ausência de dashboard de KPIs e métricas",
-    "Prontuários físicos dificultam busca de informações",
-    "Comunicação reativa sem automação"
+    "Dificuldade em avaliar e padronizar a qualidade dos atendimentos (sem métricas claras de performance).",
+    "Equipe de atendimento sobrecarregada e sem disponibilidade fora do horário comercial.",
+    "Alta taxa de não comparecimento (no-show) impactando o faturamento.",
+    "Leads não acompanhados após abandono do agendamento, resultando em perda de pacientes."
   ];
 
   const solucoesIA = [
-    "IA para Agendamentos Inteligentes",
-    "IA para Prontuários (OCR + classificação)",
-    "IA para CRM e retorno de pacientes",
-    "Analytics preditivo e dashboards em tempo real",
-    "Chatbots para atendimento 24/7",
-    "Automação de processos administrativos"
+    "Monitoramento e análise automática da performance dos atendimentos.",
+    "Atendimento automatizado 24/7 para consultas, dúvidas e procedimentos.",
+    "Lembretes inteligentes e recuperação proativa de pacientes que faltaram.",
+    "Automação de follow-ups para leads que não concluíram o agendamento."
   ];
 
 
@@ -53,7 +50,7 @@ const Diagnostico = () => {
             <div>
               <h4 className="text-xl font-bold text-gray-900 mb-6 flex items-center">
                 <Target className="w-6 h-6 text-primary mr-3" />
-                Diagnóstico Atual
+                Situação Atual
               </h4>
               <ul className="space-y-4">
                 {problemasAtuais.map((problema, index) => (
