@@ -29,7 +29,7 @@ const Diagnostico = () => {
             Diagnóstico Inicial
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-6">
-            Análise Completa da sua Clínica
+            Pré-Diagnóstico da Clínica
           </h2>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
             Identificamos oportunidades específicas de automação e otimização baseadas em IA para transformar sua operação.
