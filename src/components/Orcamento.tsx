@@ -3,14 +3,11 @@ import { Check, Star, Clock, FileText, Users, Brain, TrendingUp, Shield, Target,
 
 const Orcamento = () => {
   const entregaveis = [
-    { icon: Users, label: "Descoberta com stakeholders (3–5 entrevistas)" },
-    { icon: FileText, label: "Mapeamento AS-IS e TO-BE (6–8 processos núcleo)" },
-    { icon: Brain, label: "Blueprint de IA (aplicações, dados, integrações — alto nível)" },
-    { icon: Target, label: "Matriz de Oportunidades (Impacto × Esforço) e priorização (ICE/RICE)" },
-    { icon: TrendingUp, label: "Plano de aumento de faturamento (quick wins 30 dias; metas 60–90 dias)" },
-    { icon: DollarSign, label: "Estimativas de ganho de receita e ROI (faixas com premissas)" },
-    { icon: Target, label: "Plano de medição (KPIs e metas)" },
-    { icon: FileText, label: "Dossiê documentado (PDF/Notion) + apresentação executiva" }
+    { icon: Users, label: "Coleta inicial de dados e entrevistas com stakeholders (3–5)" },
+    { icon: FileText, label: "Mapeamento de processos AS-IS e desenho TO-BE" },
+    { icon: Target, label: "Identificação de gargalos e oportunidades (impacto × esforço)" },
+    { icon: TrendingUp, label: "Priorização de soluções e plano de aumento de faturamento" },
+    { icon: FileText, label: "Documento final (diagnóstico completo, roadmap e estimativas de ROI)" }
   ];
 
   return (
@@ -69,7 +66,7 @@ const Orcamento = () => {
             <div className="flex items-center justify-center mb-8 py-4 bg-gray-50 rounded-lg border border-gray-200">
               <Clock className="w-5 h-5 text-primary mr-3" />
               <span className="text-gray-700 font-medium">
-                Prazo estimado: 2–3 semanas
+                Prazo estimado: 4–5 semanas
               </span>
             </div>
 
