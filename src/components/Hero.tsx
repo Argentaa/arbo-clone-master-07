@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Eye, TrendingUp, Target } from "lucide-react";
 import heroImage from "@/assets/hero-image.jpg";
 
 const Hero = () => {
@@ -47,32 +48,41 @@ const Hero = () => {
               </Button>
             </div>
 
-            {/* Metrics */}
+            {/* Benefícios Tangíveis */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 pt-8">
               <div className="text-center sm:text-left">
-                <div className="text-3xl md:text-4xl font-extrabold text-primary mb-2">
-                  400%
+                <div className="flex items-center justify-center sm:justify-start mb-3">
+                  <Eye className="w-8 h-8 text-primary" />
                 </div>
-                <div className="text-gray-700 font-medium">
-                  Retorno sobre investimento no primeiro ano
+                <div className="text-lg font-bold text-gray-900 mb-2">
+                  Visão clara dos gargalos e desperdícios
                 </div>
-              </div>
-              
-              <div className="text-center sm:text-left">
-                <div className="text-3xl md:text-4xl font-extrabold text-secondary mb-2">
-                  24/7
-                </div>
-                <div className="text-gray-700 font-medium">
-                  Atendimento automatizado disponível
+                <div className="text-gray-600 text-sm">
+                  Identificação precisa dos pontos de melhoria
                 </div>
               </div>
               
               <div className="text-center sm:text-left">
-                <div className="text-3xl md:text-4xl font-extrabold text-primary mb-2">
-                  1 mês
+                <div className="flex items-center justify-center sm:justify-start mb-3">
+                  <TrendingUp className="w-8 h-8 text-secondary" />
                 </div>
-                <div className="text-gray-700 font-medium">
-                  Tempo de implementação da primeira fase
+                <div className="text-lg font-bold text-gray-900 mb-2">
+                  Plano de aumento de faturamento estruturado
+                </div>
+                <div className="text-gray-600 text-sm">
+                  Estratégia clara para crescimento da receita
+                </div>
+              </div>
+              
+              <div className="text-center sm:text-left">
+                <div className="flex items-center justify-center sm:justify-start mb-3">
+                  <Target className="w-8 h-8 text-primary" />
+                </div>
+                <div className="text-lg font-bold text-gray-900 mb-2">
+                  Prioridades definidas por ROI e impacto
+                </div>
+                <div className="text-gray-600 text-sm">
+                  Foco nas ações que geram maior retorno
                 </div>
               </div>
             </div>
