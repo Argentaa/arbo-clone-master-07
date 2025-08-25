@@ -1,4 +1,5 @@
 import { Mic, CalendarCheck, Repeat, TrendingUp } from "lucide-react";
+import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card";
 
 const Oportunidades = () => {
   return (
@@ -204,39 +205,38 @@ const Oportunidades = () => {
           </div>
 
           {/* Summary */}
-          <div className="card-arbo bg-gradient-glow border-0 lg:col-span-2 mt-8 lg:mt-0">
-          <br></br><br></br>
-            <div className="text-center">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+          <Card className="lg:col-span-2 mt-8 lg:mt-0 bg-gradient-glow border-0 p-8">
+            <CardHeader className="text-center p-0 mb-8">
+              <CardTitle className="text-3xl font-extrabold text-gray-900 mb-4">
                 Potencial de Transformação
-              </h3>
-              <p className="text-gray-700 mb-8 max-w-2xl mx-auto">
+              </CardTitle>
+              <CardDescription className="text-lg text-gray-700 max-w-2xl mx-auto">
                 A implementação completa dessas soluções pode gerar uma transformação
                 radical na eficiência operacional e experiência do paciente.
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="p-0">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="text-center flex flex-col justify-center items-center">
+                  <div className="text-6xl font-bold text-secondary mb-2">70 –90%</div>
+                  <div className="text-lg text-gray-600 font-medium">Automação no atendimento</div>
+                </div>
+                <div className="text-center flex flex-col justify-center items-center">
+                  <div className="text-6xl font-bold text-primary mb-2">30 –60%</div>
+                  <div className="text-lg text-gray-600 font-medium">Redução de no-shows</div>
+                </div>
+                <div className="text-center flex flex-col justify-center items-center">
+                  <div className="text-6xl font-bold text-secondary mb-2">15 –35%</div>
+                  <div className="text-lg text-gray-600 font-medium">Aumento de conversões</div>
+                </div>
+              </div>
+            </CardContent>
+            <CardFooter className="mt-8 p-0 justify-center">
+              <p className="text-sm text-gray-500 text-center">
+                Faixas estimadas; refinadas após o mapeamento.
               </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div className="text-center flex flex-col justify-center items-center">
-                  <div className="text-5xl font-bold text-secondary mb-2">70–90%</div>
-                  <div className="kpi-label text-gray-600">Automação no atendimento</div>
-                </div>
-                <div className="text-center flex flex-col justify-center items-center">
-                  <div className="text-5xl font-bold text-primary mb-2">30–60%</div>
-                  <div className="kpi-label text-gray-600">Redução de no-shows</div>
-                </div>
-                <div className="text-center flex flex-col justify-center items-center">
-                  <div className="text-5xl font-bold text-secondary mb-2">15–35%</div>
-                  <div className="kpi-label text-gray-600">Aumento de conversões</div>
-                </div>
-              </div>
-              
-              <div className="mt-6">
-                <p className="text-sm text-gray-500 text-center">
-                  Faixas estimadas; refinadas após o mapeamento.
-                </p>
-              </div>
-            </div>
-          </div>
+            </CardFooter>
+          </Card>
         </div>
       </div>
     </section>
