@@ -33,8 +33,10 @@ const Plano = () => {
         "Ranking de alavancas por Impacto×Esforço e score ICE/RICE (Alta/Média/Baixa)"
       ],
       entregaveis: [
-        "Interações rápidas: tira-dúvidas assíncrono; 1 checkpoint opcional de 15–20 min",
-        "Critérios de aceite: Fluxos validados e top alavancas priorizadas"
+        "Entrevistas com pessoas-chave da operação (quantidade conforme necessidade), ex.: recepção, atendimento, faturamento, coordenação",
+        "Acesso supervisionado à agenda/CRM/financeiro para amostras e conferências",
+        "Esclarecimentos pontuais por chat/e-mail durante o mapeamento",
+        "Critérios de aceite: fluxos AS-IS validados pelos responsáveis e principais gargalos priorizados"
       ]
     },
     {
@@ -52,8 +54,10 @@ const Plano = () => {
         "Dossiê final (PDF/Notion) e apresentação executiva"
       ],
       entregaveis: [
-        "Interações rápidas: call final de 20–30 min para aprovação",
-        "Critérios de aceite: Roadmap 90 dias aprovado e metas por KPI definidas"
+        "Reunião de apresentação do mapeamento e das soluções (20–30 min): visão dos gargalos, ganhos estimados e roadmap 30/60/90",
+        "Registro de dúvidas e ajustes finais no documento",
+        "Definição de responsáveis (owners) e metas por KPI",
+        "Critérios de aceite: dossiê final (PDF/Notion) entregue e roadmap de 90 dias validado pela clínica"
       ]
     }
   ];

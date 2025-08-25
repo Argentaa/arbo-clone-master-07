@@ -218,16 +218,37 @@ const Oportunidades = () => {
             <CardContent className="p-0">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="text-center flex flex-col justify-center items-center">
-                  <div className="text-6xl font-bold text-secondary mb-2">70 –90%</div>
-                  <div className="text-lg text-gray-600 font-medium">Automação no atendimento</div>
+                  <div className="text-6xl font-extrabold text-primary mb-2" style={{
+                    fontWeight: 800,
+                    lineHeight: '1.05',
+                    letterSpacing: '-0.01em'
+                  }}>70 – 90%</div>
+                  <div className="text-lg text-muted-foreground font-medium max-w-[20ch] mx-auto mt-1.5" style={{
+                    fontWeight: 500,
+                    lineHeight: '1.3'
+                  }}>Automação no atendimento</div>
                 </div>
                 <div className="text-center flex flex-col justify-center items-center">
-                  <div className="text-6xl font-bold text-primary mb-2">30 –60%</div>
-                  <div className="text-lg text-gray-600 font-medium">Redução de no-shows</div>
+                  <div className="text-6xl font-extrabold text-primary mb-2" style={{
+                    fontWeight: 800,
+                    lineHeight: '1.05',
+                    letterSpacing: '-0.01em'
+                  }}>30 – 60%</div>
+                  <div className="text-lg text-muted-foreground font-medium max-w-[20ch] mx-auto mt-1.5" style={{
+                    fontWeight: 500,
+                    lineHeight: '1.3'
+                  }}>Redução de no-shows</div>
                 </div>
                 <div className="text-center flex flex-col justify-center items-center">
-                  <div className="text-6xl font-bold text-secondary mb-2">15 –35%</div>
-                  <div className="text-lg text-gray-600 font-medium">Aumento de conversões</div>
+                  <div className="text-6xl font-extrabold text-primary mb-2" style={{
+                    fontWeight: 800,
+                    lineHeight: '1.05',
+                    letterSpacing: '-0.01em'
+                  }}>15 – 35%</div>
+                  <div className="text-lg text-muted-foreground font-medium max-w-[20ch] mx-auto mt-1.5" style={{
+                    fontWeight: 500,
+                    lineHeight: '1.3'
+                  }}>Aumento de conversões</div>
                 </div>
               </div>
             </CardContent>

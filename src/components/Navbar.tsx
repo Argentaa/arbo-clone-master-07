@@ -43,6 +43,12 @@ const Navbar = () => {
             >
               Orçamento
             </button>
+            <button
+              onClick={() => scrollToSection('sobre')}
+              className="text-gray-700 hover:text-primary transition-colors font-medium"
+            >
+              Sobre
+            </button>
           </div>
 
           {/* CTA Button */}

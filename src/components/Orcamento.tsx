@@ -3,7 +3,6 @@ import { Check, Star, Clock, FileText, Users, Brain, TrendingUp, Shield, Target,
 
 const Orcamento = () => {
   const entregaveis = [
-    { icon: Users, label: "Coleta inicial de dados e entrevistas com stakeholders (3–5)" },
     { icon: FileText, label: "Mapeamento de processos AS-IS e desenho TO-BE" },
     { icon: Target, label: "Identificação de gargalos e oportunidades (impacto × esforço)" },
     { icon: TrendingUp, label: "Priorização de soluções e plano de aumento de faturamento" },

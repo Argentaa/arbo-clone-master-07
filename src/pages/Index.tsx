@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import Sobre from "@/components/Sobre";
 import Diagnostico from "@/components/Diagnostico";
 import Oportunidades from "@/components/Oportunidades";
 import Plano from "@/components/Plano";
@@ -15,6 +16,7 @@ const Index = () => {
       <Oportunidades />
       <Plano />
       <Orcamento />
+      <Sobre />
       <Footer />
     </div>
   );
