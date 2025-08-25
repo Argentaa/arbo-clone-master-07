@@ -10,9 +10,7 @@ const Oportunidades = () => {
             Oportunidades Identificadas
           </h2>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-            Claro! Preparei uma nova versão das funcionalidades, seguindo a estrutura visual do exemplo que você enviou e incorporando as suas ideias.
-
-            Aqui estão as novas soluções com IA:
+            Principais oportunidades de automação com IA para reduzir gargalos, aumentar eficiência e gerar impacto imediato no faturamento.
           </p>
         </div>
 
