@@ -218,15 +218,15 @@ const Oportunidades = () => {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="text-center flex flex-col justify-center items-center">
                   <div className="text-5xl font-bold text-secondary mb-2">70–90%</div>
-                  <div className="text-lg text-gray-600">Cobertura de automação 24/7 nas interações de atendimento</div>
+                  <div className="kpi-label text-gray-600">Automação no atendimento</div>
                 </div>
                 <div className="text-center flex flex-col justify-center items-center">
                   <div className="text-5xl font-bold text-primary mb-2">30–60%</div>
-                  <div className="text-lg text-gray-600">Redução de no-shows</div>
+                  <div className="kpi-label text-gray-600">Redução de no-shows</div>
                 </div>
                 <div className="text-center flex flex-col justify-center items-center">
                   <div className="text-5xl font-bold text-secondary mb-2">15–35%</div>
-                  <div className="text-lg text-gray-600">Aumento na conversão de novos pacientes</div>
+                  <div className="kpi-label text-gray-600">Aumento de conversões</div>
                 </div>
               </div>
               

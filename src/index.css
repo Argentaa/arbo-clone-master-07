@@ -185,6 +185,17 @@
     box-shadow: var(--shadow-glow);
   }
   
+  /* KPI label styling */
+  .kpi-label {
+    font-weight: 500;
+    font-size: 0.95em;
+    line-height: 1.3;
+    max-width: 20ch;
+    margin: 6px auto 0;
+    text-align: center;
+    text-wrap: balance;
+  }
+  
   /* Section spacing */
   .section-padding {
     @apply py-16 md:py-24 lg:py-32;
