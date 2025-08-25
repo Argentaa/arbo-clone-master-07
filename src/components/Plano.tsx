@@ -115,9 +115,6 @@ const Plano = () => {
                   <h3 className="text-xl font-bold text-gray-900">
                     {fase.titulo}
                   </h3>
-                  <span className="text-sm font-medium text-primary">
-                    {fase.duracao}
-                  </span>
                 </div>
               </div>
 
@@ -172,12 +169,6 @@ const Plano = () => {
           ))}
         </div>
 
-        {/* Footer Note */}
-        <div className="text-center mt-8">
-          <p className="text-sm text-gray-600">
-            Duração total estimada: 2–4 semanas. Fora de escopo: implantação técnica/integr. (opcionais).
-          </p>
-        </div>
       </div>
     </section>
   );
