@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-
+import logo from "@/assets/logo.png";
 const Sobre = () => {
   return (
     <section id="sobre" className="pb-32 bg-background">
@@ -46,7 +46,7 @@ const Sobre = () => {
           {/* Logo */}
           <div className="flex justify-center lg:justify-start order-2 lg:order-2">
             <img
-              src="src/assets/logo.png"
+              src={logo}
               alt="Arbo Automações Logo"
               className="max-w-full h-auto"
             />
