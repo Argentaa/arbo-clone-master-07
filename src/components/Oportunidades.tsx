@@ -217,21 +217,27 @@ const Oportunidades = () => {
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="text-center flex flex-col justify-center items-center">
-                  <div className="text-5xl font-bold text-primary mb-2">85%</div>
-                  <div className="text-lg text-gray-600">Redução em processos manuais</div>
+                  <div className="text-5xl font-bold text-primary mb-2">50–80%</div>
+                  <div className="text-lg text-gray-600">Redução de processos manuais no atendimento administrativo</div>
                 </div>
                 <div className="text-center flex flex-col justify-center items-center">
-                  <div className="text-5xl font-bold text-secondary mb-2">24/7</div>
-                  <div className="text-lg text-gray-600">Disponibilidade de atendimento</div>
+                  <div className="text-5xl font-bold text-secondary mb-2">70–90%</div>
+                  <div className="text-lg text-gray-600">Cobertura de automação 24/7 nas interações de atendimento</div>
                 </div>
                 <div className="text-center flex flex-col justify-center items-center">
-                  <div className="text-5xl font-bold text-primary mb-2">60%</div>
-                  <div className="text-lg text-gray-600">Aumento na satisfação</div>
+                  <div className="text-5xl font-bold text-primary mb-2">30–60%</div>
+                  <div className="text-lg text-gray-600">Redução de no-shows</div>
                 </div>
                 <div className="text-center flex flex-col justify-center items-center">
-                  <div className="text-5xl font-bold text-secondary mb-2">400%</div>
-                  <div className="text-lg text-gray-600">ROI no primeiro ano</div>
+                  <div className="text-5xl font-bold text-secondary mb-2">15–35%</div>
+                  <div className="text-lg text-gray-600">Aumento na conversão de novos pacientes</div>
                 </div>
+              </div>
+              
+              <div className="mt-6">
+                <p className="text-sm text-gray-500 text-center">
+                  Faixas estimadas; refinadas após o mapeamento.
+                </p>
               </div>
             </div>
           </div>
