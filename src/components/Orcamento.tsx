@@ -17,15 +17,16 @@ const Orcamento = () => {
       desenvolvimento: "R$ 8.500,00",
       desenvolvimentoLabel: "(pagamento único)",
       manutencao: "R$ 550,00",
-      manutencaoLabel: "(mensal)",
+      manutencaoLabel: "(mensal - até 300 consultas)",
+      nota: "*Excedente: R$ 25,00 por cada 1000 minutos excedentes",
     },
     {
       icon: Package,
       title: "Pacote Combo",
       desenvolvimento: "R$ 11.000,00",
       desenvolvimentoLabel: "(R$ 1300 de desconto)",
-      manutencao: "R$ 450,00",
-      manutencaoLabel: "(mensal)",
+      manutencao: "R$ 500,00",
+      manutencaoLabel: "(mensal - até 300 consultas)",
     },
   ];
 
@@ -74,6 +75,7 @@ const Orcamento = () => {
                 </div>
 
               </div>
+              {index === 1 && plano.nota && <div className="text-xs text-gray-500 mt-2 text-center">{plano.nota}</div>}
             </div>
           ))}
         </div>
