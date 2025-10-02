@@ -5,6 +5,83 @@ const Oportunidades = () => {
   return (
     <section id="oportunidades" className="pb-32 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Soluções Principais */}
+        <div className="mb-24">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* Solução 1 */}
+            <div className="card-arbo group">
+              <div className="mb-6">
+                <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                  Solução 1: Sua Clínica Online - Website Institucional Profissional
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Crie uma presença online moderna para apresentar sua clínica, seus serviços e facilitar o primeiro contato de novos pacientes com um design responsivo e profissional.
+                </p>
+              </div>
+              <div>
+                <h4 className="text-sm font-semibold text-gray-700 mb-3 flex items-center">
+                  <div className="w-2 h-2 bg-secondary rounded-full mr-2"></div>
+                  Recursos Principais
+                </h4>
+                <ul className="space-y-2">
+                  <li className="text-gray-600 text-sm flex items-start">
+                    <div className="w-1.5 h-1.5 bg-secondary rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                    Design moderno adaptado para celulares, tablets e computadores.
+                  </li>
+                  <li className="text-gray-600 text-sm flex items-start">
+                    <div className="w-1.5 h-1.5 bg-secondary rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                    Até 5 páginas (Início, Sobre, Serviços, Corpo Clínico, Contato).
+                  </li>
+                  <li className="text-gray-600 text-sm flex items-start">
+                    <div className="w-1.5 h-1.5 bg-secondary rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                    Formulário de contato e agendamento para captação de pacientes.
+                  </li>
+                  <li className="text-gray-600 text-sm flex items-start">
+                    <div className="w-1.5 h-1.5 bg-secondary rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                    Mapa de localização integrado e otimização inicial para Google (SEO).
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Solução 2 */}
+            <div className="card-arbo group">
+              <div className="mb-6">
+                <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                  Solução 2: Atendimento Sem Fronteiras - Plataforma de Telemedicina
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Ofereça atendimento remoto de forma segura e integrada, quebrando barreiras geográficas e proporcionando mais conveniência aos seus pacientes.
+                </p>
+              </div>
+              <div>
+                <h4 className="text-sm font-semibold text-gray-700 mb-3 flex items-center">
+                  <div className="w-2 h-2 bg-secondary rounded-full mr-2"></div>
+                  Recursos Principais
+                </h4>
+                <ul className="space-y-2">
+                  <li className="text-gray-600 text-sm flex items-start">
+                    <div className="w-1.5 h-1.5 bg-secondary rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                    Portal exclusivo para paciente e profissional de saúde.
+                  </li>
+                  <li className="text-gray-600 text-sm flex items-start">
+                    <div className="w-1.5 h-1.5 bg-secondary rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                    Videochamadas seguras e criptografadas para as consultas.
+                  </li>
+                  <li className="text-gray-600 text-sm flex items-start">
+                    <div className="w-1.5 h-1.5 bg-secondary rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                    Emissão de prescrições e atestados digitais.
+                  </li>
+                  <li className="text-gray-600 text-sm flex items-start">
+                    <div className="w-1.5 h-1.5 bg-secondary rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                    Agenda de teleconsultas integrada.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-6">
