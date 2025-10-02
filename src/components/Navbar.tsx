@@ -20,10 +20,10 @@ const Navbar = () => {
           {/* Navigation Links */}
           <div className="hidden md:flex items-center space-x-8">
             <button
-              onClick={() => scrollToSection('diagnostico')}
+              onClick={() => scrollToSection('solucoes-digitais')}
               className="text-gray-700 hover:text-primary transition-colors font-medium"
             >
-              Diagnóstico
+              Soluções Digitais
             </button>
             <button
               onClick={() => scrollToSection('oportunidades')}

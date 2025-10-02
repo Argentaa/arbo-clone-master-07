@@ -19,12 +19,11 @@ const Hero = () => {
             <div className="space-y-6">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight">
                 Transformação Digital para{" "}
-                <span className="text-primary">Clinica Clinlife</span>
+                <span className="text-primary">Clínica Di Bem</span>
               </h1>
               
               <p className="text-xl md:text-2xl text-gray-700 leading-relaxed">
-                Automação inteligente para elevar a experiência do paciente e 
-                otimizar seus processos de ponta a ponta.
+                Transformamos a jornada do seu paciente com tecnologia, otimizando cada ponto de contato, para uma experiência de saúde verdadeiramente moderna.
               </p>
             </div>
 
