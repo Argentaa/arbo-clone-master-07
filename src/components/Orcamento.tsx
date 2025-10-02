@@ -16,7 +16,7 @@ const Orcamento = () => {
       title: "Plataforma de Telemedicina",
       desenvolvimento: "R$ 8.500,00",
       desenvolvimentoLabel: "(pagamento único)",
-      manutencao: "R$ 450,00",
+      manutencao: "R$ 550,00",
       manutencaoLabel: "(mensal)",
     },
     {
@@ -24,7 +24,7 @@ const Orcamento = () => {
       title: "Pacote Combo",
       desenvolvimento: "R$ 11.000,00",
       desenvolvimentoLabel: "(R$ 1300 de desconto)",
-      manutencao: "R$ 400,00",
+      manutencao: "R$ 450,00",
       manutencaoLabel: "(mensal)",
     },
   ];

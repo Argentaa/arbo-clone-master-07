@@ -17,51 +17,8 @@ const Oportunidades = () => {
         </div>
 
         {/* Opportunities Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* Análise de Atendimento e Performance */}
-          <div className="card-arbo group">
-            <div className="flex items-center justify-between mb-6">
-              <div className="flex items-center">
-                <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mr-4 flex-shrink-0 flex-grow-0">
-                  <Mic className="w-6 h-6 text-white" />
-                </div>
-                <h3 className="text-xl font-bold text-gray-900">
-                  Análise de Atendimento e Performance
-                </h3>
-              </div>
-              <span className="badge-priority-alta">Alta</span>
-            </div>
-            <div className="space-y-6">
-              <div>
-                <h4 className="text-sm font-semibold text-gray-700 mb-3 flex items-center">
-                  <div className="w-2 h-2 bg-gray-400 rounded-full mr-2"></div>
-                  Situação Atual
-                </h4>
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  Dificuldade em avaliar e padronizar a qualidade dos atendimentos. Treinamentos de equipe baseados em observações subjetivas e pontuais, sem métricas claras de performance.
-                </p>
-              </div>
-              <div>
-                <h4 className="text-sm font-semibold text-gray-700 mb-3 flex items-center">
-                  <div className="w-2 h-2 bg-secondary rounded-full mr-2"></div>
-                  Solução com IA
-                </h4>
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  Sistema que grava, transcreve e analisa o áudio dos atendimentos, pontuando o desempenho da equipe com base na metodologia de vendas SPIN SELLING.
-                </p>
-              </div>
-              <div className="pt-4 border-t border-gray-200">
-                <div className="flex items-center justify-between">
-                  <span className="text-xs font-medium text-gray-500">
-                    Impacto Esperado
-                  </span>
-                  <span className="text-sm font-bold text-primary">
-                    40% de aumento na conversão de agendamentos
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+
 
           {/* Agente de Atendimento 24/7 */}
           <div className="card-arbo group">
@@ -204,9 +161,11 @@ const Oportunidades = () => {
               </div>
             </div>
           </div>
+        </div>
 
-          {/* Summary */}
-          <Card className="lg:col-span-2 mt-8 lg:mt-0 bg-gradient-glow border-0 p-8">
+        {/* Centered Summary Card */}
+        <div className="max-w-4xl mx-auto">
+          <Card className="bg-gradient-glow border-0 p-8">
             <CardHeader className="text-center p-0 mb-8">
               <CardTitle className="text-3xl font-extrabold text-gray-900 mb-4">
                 Potencial de Transformação
@@ -245,7 +204,7 @@ const Oportunidades = () => {
                     fontWeight: 800,
                     lineHeight: '1.05',
                     letterSpacing: '-0.01em'
-                  }}>15 – 35%</div>
+                  }}>20 – 35%</div>
                   <div className="text-lg text-muted-foreground font-medium max-w-[20ch] mx-auto mt-1.5" style={{
                     fontWeight: 500,
                     lineHeight: '1.3'

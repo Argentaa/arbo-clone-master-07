@@ -2,7 +2,7 @@ import { Globe, Video, CheckCircle2 } from "lucide-react";
 
 const SolucoesDigitais = () => {
   return (
-    <section id="solucoes-digitais" className="section-padding bg-gray-50/50 scroll-mt-24">
+    <section id="solucoes-digitais" className="py-12 md:py-16 lg:py-20 bg-gray-50/50 scroll-mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
